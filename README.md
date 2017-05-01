@@ -7,7 +7,7 @@ OpenCV Haar classifier.
 
 
 
-## Instructions
+## Instructions(Linux)
 
 1. Install OpenCV by running the installation script
 	
@@ -96,3 +96,14 @@ OpenCV, and save the results to `./classifier`:
         ./facedetect --cascade="~/finished_classifier.xml"
 
 
+## Acknowledgements
+
+A huge thanks goes to Naotoshi Seo, who wrote the `mergevec.cpp` and
+`createsamples.cpp` tools and released them under the MIT licencse. His notes
+on OpenCV Haar training were a huge help. Thank you, Naotoshi!
+
+## References & Links:
+
+- [Naotoshi Seo - Tutorial: OpenCV haartraining (Rapid Object Detection With A Cascade of Boosted Classifiers Based on Haar-like Features)](http://note.sonots.com/SciSoftware/haartraining.html)
+- [Material for Naotoshi Seo's tutorial](https://code.google.com/p/tutorial-haartraining/)
+- [OpenCV Documentation - Cascade Classifier Training](http://docs.opencv.org/doc/user_guide/ug_traincascade.html)
